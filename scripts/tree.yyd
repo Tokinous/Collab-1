@@ -1,0 +1,137 @@
++player
+	|killPlayer
+	|playerMove
+	|playerWallJump
+	|playerJump
+	|playerShoot
+	|playerReverse
+	|playerSlope
+	|playerMisc
+	|outsideRoom
+	|outsideView
++system
+	|setGlobals
+	|saveGame
+	|saveExe
+	|saveDeathTime
+	|dataEncrypt
+	|dataDecrypt
+	|vigenere_ascii
+	|gameReset
+	|getBossRoom
+	|loadGame
++functions
+	|drawSelf
+	|drawLife
+	|fadeIn
+	|fadeOut
+	|flashObject
+	|splitObject
+	|screenShake
+	|screenFlash
+	|createShadow
+	|setScale
++audio
+	|music_init
+	|music_load
++controls
+	|controls_init
+	|controls_update
++cleanmem
+	|cleanmem_init
+	|cleanmem_get_mem
+	|cleanmem
++CountFunction
+	|Return_x_Dtheta
+	|Return_y_Dtheta
+	|Return_Heart_Theta_to_R
+	|Return_spikeFunction
+	|Count_Arithmetical_List
+	|Return_Polygonal_Theta_to_R
+	|is_odd
++simplfy
+	|Lex
+	|Ley
+	|Mxy
+	|Mld
+	|Mrt
+	|Inc
+	|Dest
+	|SSca
+	|SSEca
+	|scale
+	|EasePJ
+	|rand
++AVOIDANCE SETTINGS
+	|Scr_All_Important_Judgement_Record
+|draw_self
+|Create_outside_block
+|Create_inside_block
+|Return_realtime
+|Return_duration
+|Return_beat
+|Directionapproach
+|Create_randomlist
++draw
+	|Draw_InfLine
+	|Draw_Fan
+	|Draw_Ring
+	|Draw_Ring_Broken
+	|Draw_Clc
+	|Draw_CirclepointLine
+	|draw_rectangle_alpcol
+	|draw_rectangleline_alpcol
+	|HSV
+	|RGB
+	|Val
++EasingScript
+	|Ease_linear
+	|Ease_expsin
+	|Ease_backease_in
+	|Ease_backeaseN_in
+	|Ease_backease_outin
+	|Ease_bounce
+	|Ease_circle_in
+	|Ease_sinwave_in
+	|Ease_sinwave_out
+	|Ease_sinwave_outin
+	|Ease_power2_in
+	|Ease_power2_out
+	|Ease_powerN_in
+	|Ease_powerN_outin
+	|Ease_expoN_in
+	|Ease_expoN_out
+	|Ease_expoN_outin
+	|Ease_bezier3Point
+	|Ease_bezier4Point
+	|Ease_bounceApproach
+	|Shake_Power2
+	|Shake_Sinwave
++SpriteFont
+	|sf_init
+	|sf_font_add
+	|sf_font_delete
+	|sf_draw_set_halign
+	|sf_draw_set_valign
+	|sf_draw_set_color
+	|sf_draw_set_alpha
+	|sf_draw_set_font
+	|sf_draw_get_halign
+	|sf_draw_get_valign
+	|sf_draw_get_font
+	|sf_draw_text
+	|sf_draw_text_transformed
+	|sf_draw_text_ext
+	|sf_draw_text_ext_transformed
+	|sf_string_width
+	|sf_string_width_ext
+	|sf_string_height
+	|sf_string_height_ext
+	|_sf_split_text
+	|_sf_draw_text
+	|_sf_draw_string_line
+	|_sf_text_width
+	|_sf_get_glyph
+	|_sf_glyph_get_info
+	|_sf_get_sprite
+	|_sf_get_font_size

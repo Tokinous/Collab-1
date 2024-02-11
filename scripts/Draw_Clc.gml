@@ -1,0 +1,5 @@
+///Draw_Clc(Alpha,color)
+draw_set_color(argument1)
+draw_set_alpha(argument0)
+draw_rectangle(-300,-300,room_width+1100,room_height+1100,0)
+draw_set_alpha(1)

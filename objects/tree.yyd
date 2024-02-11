@@ -1,0 +1,45 @@
+|block
+|NoneCollisionBlock
+|InvisibleBlock
+|bulletBlock
+|savePoint
+|warp
++player_etc
+	|init
+	|world
+	|playerStart
+	|player
+	|bow
+	|bloodEmitter
+	|bullet
+	|camera
+	|GAMEOVER
+	|titleButton
+	|objDeathSound
++others
+	|objWater
+	|objWater2
+	|WalljumpR
+	|WalljumpL
+	|movingPlatform
+	|pathPlatform
+	|obj_wall
++parent
+	|platform
+	|playerKiller
+	|roomChanger
+	|PressRdeletor
++Game
+	|objSmoothView
+	|outsideroomChanger
+	|SpikeUp
+	|SpikeRight
+	|SpikeDown
+	|SpikeLeft
+	|objWaterDjump
+	|objWaterDjumpTop
+	+Avoidance
+		+A_Sample
+			|objAd_Sample_Enter
+			|objAd_Sample
+			|objAd_Sample_End

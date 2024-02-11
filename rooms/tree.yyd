@@ -1,0 +1,6 @@
++init
+	|rInit
+	|rTitle
++rooms
+	|RChooseAvoidance
+	|R_AVOIDANCE_XXX
