@@ -44,4 +44,6 @@
 			|objAd_Sample
 			|objAd_Sample_End
 +Tokinous
-	|tk_ctr
+	+tk_p1
+		|tk_p1_bgm
+		|tk_p1_ctr

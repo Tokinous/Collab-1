@@ -4,3 +4,5 @@
 +rooms
 	|RChooseAvoidance
 	|R_AVOIDANCE_XXX
+	+r_Tokinous
+		|r_tk_p1
