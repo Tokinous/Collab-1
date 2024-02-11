@@ -1,6 +1,6 @@
 {
     //game title
-    global.game_title = "A Void Dance"
+    global.game_title = "Collab #1"
     //first room
     global.first_stage = 0;
     //lite mode (set to true for convenient testing & debugging, set to false when you want release your game)
