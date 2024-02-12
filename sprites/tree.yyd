@@ -69,3 +69,8 @@
 	|Kois_Ad_1_SprCherryDown
 	|Kois_Ad_1_SprCherryInverse
 	|Kois_Ad_1_SprEnterHint
++Kois_Ad_2
+	|Kois_Ad_2_SprBackground
+	|Kois_Ad_2_SprCherryGreen
+	|Kois_Ad_2_SprBouncer
+	|Kois_Ad_2_SprEnterHint

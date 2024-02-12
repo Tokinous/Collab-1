@@ -1,8 +1,9 @@
-ERROR in
+FATAL ERROR in
 action number 1
 of Draw Event
-for object objAd_Kois_1_End:
+for object objAd_Kois_2_Background:
 
-Error opening file for writing.
+COMPILATION ERROR in code actionError in code at line 10:   
+draw_surface_ext(surface3, 400 + Return_x_Dtheta(-550, -550, 0), 304 + Return_y_Dtheta(-550, -550, 0), 1, 1, 0, c_white, 1))                                                                                                                              ^at position 125: Unexpected symbol in expression.
 
 

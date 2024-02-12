@@ -38,6 +38,11 @@
 	|SpikeLeft
 	|objWaterDjump
 	|objWaterDjumpTop
+	+Avoidance
+		+A_Sample
+			|objAd_Sample_Enter
+			|objAd_Sample
+			|objAd_Sample_End
 	+A_Kois_1_ 拉使天
 		|objAd_Kois_1_Enter
 		|objAd_Kois_1
@@ -51,10 +56,13 @@
 		|objAd_Kois_1_Effect
 		|objAd_Kois_1_None
 		|objAd_Kois_1_EnterHint
-	+Avoidance
-		+A_Sample
-			|objAd_Sample_Enter
-			|objAd_Sample
-			|objAd_Sample_End
+	+A_Kois_2_ 红配绿
+		|objAd_Kois_2_Enter
+		|objAd_Kois_2
+		|objAd_Kois_2_End
+		|objAd_Kois_2_Background
+		|objAd_Kois_2_EnterHint
+		|objAd_Kois_2_Bullet1
+		|objAd_Kois_2_Bouncer
 +Tokinous
 	|tk_ctr

@@ -1,7 +1,7 @@
 switch(argument0){
     case 0:
         return (room == R_AVOIDANCE_Kois_1 ||
-                room == R_AVOIDANCE_XXX ||
+                room == R_AVOIDANCE_Kois_2 ||
                 room == R_AVOIDANCE_XXX ||
                 room == R_AVOIDANCE_XXX ||
                 room == R_AVOIDANCE_XXX);
@@ -9,8 +9,8 @@ switch(argument0){
     break;
     case 1:
         return (
-            !instance_exists(objAd_XXX_End) &&
-            !instance_exists(objAd_XXX_End) &&
+            !instance_exists(objAd_Kois_1_End) &&
+            !instance_exists(objAd_Kois_2_End) &&
             !instance_exists(objAd_XXX_End) &&
             !instance_exists(objAd_XXX_End) &&
             !instance_exists(objAd_XXX_End)
@@ -28,6 +28,11 @@ switch(argument0){
                 room_goto(RChooseAvoidance);
                 player.x = 112;
                 player.y = 528;
+            }
+            case R_AVOIDANCE_Kois_2:{
+                room_goto(RChooseAvoidance);
+                player.x = 528;
+                player.y = 400;
             }
             break;
         }
