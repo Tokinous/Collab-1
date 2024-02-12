@@ -231,18 +231,18 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-if !TestMode{
-    if (!GodMode){
+if (!GodMode){
+    if !TestMode{
         killPlayer();
     }
-}
-else{
-    if (TestModeDied==0){
-        FMODSoundPlay(sndDeath);
-        //create death effects
-        instance_create(player.x,player.y,bloodEmitter);
-        TestModeDied=1;
-        alarm[1]=20;
+    else{
+        if (TestModeDied==0){
+            FMODSoundPlay(sndDeath);
+            //create death effects
+            instance_create(player.x,player.y,bloodEmitter);
+            TestModeDied=1;
+            alarm[1]=20;
+        }
     }
 }
 #define KeyPress_71

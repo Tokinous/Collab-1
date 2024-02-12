@@ -1,6 +1,6 @@
 switch(argument0){
     case 0:
-        return (room == R_AVOIDANCE_XXX ||
+        return (room == R_AVOIDANCE_Kois_1 ||
                 room == R_AVOIDANCE_XXX ||
                 room == R_AVOIDANCE_XXX ||
                 room == R_AVOIDANCE_XXX ||
@@ -23,6 +23,11 @@ switch(argument0){
                 room_goto(R_XXX);
                 player.x = XXX;
                 player.y = XXX;
+            }
+            case R_AVOIDANCE_Kois_1:{
+                room_goto(RChooseAvoidance);
+                player.x = 112;
+                player.y = 528;
             }
             break;
         }

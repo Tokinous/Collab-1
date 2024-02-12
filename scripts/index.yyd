@@ -400,3 +400,7 @@ _sf_get_glyph
 _sf_glyph_get_info
 _sf_get_sprite
 _sf_get_font_size
+Scr_Kois_Ad_1_Inst_Form
+Scr_Kois_Ad_1_Inst_Drawcreator
+Scr_Kois_Ad_1_Inst_Creator
+Scr_Kois_Ad_1_Inst_xyCreator
