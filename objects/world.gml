@@ -220,10 +220,6 @@ if Scr_All_Important_Judgement_Record(0){
     global.frozen = false;
 
     Scr_All_Important_Judgement_Record(2)
-
-    with(player){
-        instance_destroy();
-    }
 }
 #define KeyPress_13
 /*"/*'/**//* YYD ACTION
