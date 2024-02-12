@@ -1,0 +1,7 @@
+sprite=Kois_Ad_2_SprBouncer
+visible=1
+solid=0
+persistent=0
+depth=500
+parent=
+mask=

@@ -10,6 +10,12 @@ applies_to=self
 
 
 
+
+
+//进耐久房间相关的obj------------------------------------
+ObjEnterRoom = objAd_Sample_Enter;
+
+
 //读取BGM-----------------------------------
 if instance_exists(ObjEnterRoom){
     bgmBoss = FMODSoundAdd(global.music_directory + 'SongXXXX.mp3',0,0);
@@ -35,12 +41,6 @@ UseTimeLine = XXX//使用时间轴
 start_pos = XXX//时间轴开始的步数，测试用
 }
 */
-
-
-
-
-//进耐久房间相关的obj------------------------------------
-ObjEnterRoom = objAd_Sample_Enter;
 
 
 

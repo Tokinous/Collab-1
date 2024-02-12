@@ -1,0 +1,7 @@
+sprite=Kois_Ad_2_SprCherryGreen
+visible=1
+solid=0
+persistent=0
+depth=0
+parent=playerKiller
+mask=

@@ -49,6 +49,8 @@
 	|Count_Arithmetical_List
 	|Return_Polygonal_Theta_to_R
 	|is_odd
+	|_Mod
+	|_Div
 +simplfy
 	|Lex
 	|Ley
